@@ -11,8 +11,7 @@ makedepends=('git')
 replaces=('gnome-shell')
 _repanthalver=0.3.1
 provides=('alphaos-ux')
-_fileurl=https://github.com/g97iulio1609/alphaos-ux/blob/master/alphaosux.tar.gz
-source=("${_fileurl}")
+source=("git+https://github.com/g97iulio1609/alphaos-ux.git")
 md5sums=('SKIP')
 
 package() {
