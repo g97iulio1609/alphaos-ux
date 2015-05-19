@@ -18,7 +18,7 @@ package() {
     cd "${srcdir}/${pkgname}"
 
     mkdir -p "${pkgdir}"/usr/share/themes
-    cp -R usr/share/Numix-Frost "${pkgdir}"/usr/share/themes
-    cp -R usr/share/alphaosux "${pkgdir}"/usr/share/themes
+    cp -R  /home/alpha/pkg/alphaos-ux/alphaos-ux/Numix-Frost "${pkgdir}"/usr/share/themes
+    cp -R   /home/alpha/pkg/alphaos-ux/alphaos-ux/ "${pkgdir}"/usr/share/themes
 
 }
