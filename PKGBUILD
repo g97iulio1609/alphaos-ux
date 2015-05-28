@@ -19,6 +19,6 @@ package() {
 
     mkdir -p "${pkgdir}"/usr/share/themes
     cp -R  /home/alpha/pkg/alphaos-ux/alphaos-ux/Numix-Frost "${pkgdir}"/usr/share/themes
-    cp -R   /home/alpha/pkg/alphaos-ux/alphaos-ux/ "${pkgdir}"/usr/share/themes
+    cp -R   /home/alpha/pkg/alphaos-ux/alphaos-ux "${pkgdir}"/usr/share/themes
 
 }
